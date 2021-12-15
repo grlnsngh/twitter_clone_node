@@ -1,0 +1,6 @@
+{
+    // convert ES6 to ES5 with the help of preset-env
+    "presets": ["@babel/preset-env"],
+    // to enable async syntax
+    "plugins": ["@babel/plugin-transform-runtime"]
+}

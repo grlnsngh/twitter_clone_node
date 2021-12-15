@@ -1,0 +1,26 @@
+{
+  "name": "twitter_node",
+  "version": "1.0.0",
+  "description": "twitter clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f .env.development nodemon --exec babel-node src/index.js"
+  },
+  "author": "Gurleen Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
