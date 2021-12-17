@@ -50,7 +50,7 @@ signupRoute.post("/", (req, res) => {
                       200,
                       true,
                       {},
-                      "Signed up successful"
+                      "Signed up successful, sign in to continue"
                     );
                   })
                   .catch((err) => {
